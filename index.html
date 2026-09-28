@@ -3,31 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raymond's Portfolio</title>
+  <title>Raymond Okumu | ICT Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header class="hero">
-    <img src="images/profile.jpg" alt="Raymond" class="profile-img">
-    <h1>Hi, I am Raymond</h1>
-    <p>I am an ICT student learning how to build modern websites and software solutions.</p>
-  </header>
+  <!-- SIDEBAR ASIDE -->
+  <aside class="sidebar">
+    <div class="profile-container">
+      <div class="avatar-ring">
+        <img src="images/profile.jpg" alt="Raymond Okumu" class="profile-img">
+      </div>
+    </div>
+    <h2>Raymond Okumu</h2>
+    <p class="role">ICT Professional</p>
+    
+    <nav class="sidebar-nav">
+      <a href="#about">About Me</a>
+      <a href="#skills">Core Competencies</a>
+      <a href="#projects">Projects</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contact">Contact Me</a>
+    </nav>
+  </aside>
 
-  <main>
-    <section class="projects-section">
-      <h2>My Projects</h2>
-      <div class="card">
-        <h3>Personal Website Project</h3>
-        <p>My first personal website featuring a responsive design, custom styling, and an overview of my work.</p>
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- About Me Section -->
+    <section id="about" class="content-section">
+      <h1>About Me</h1>
+      <p>Hello! I am <strong>Raymond Okumu</strong>, an ICT professional and student based in Kenya. I specialize in computer hardware diagnostics, preventative system maintenance, and configuring robust software environments to ensure smooth technical operations.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="content-section">
+      <h2>Core Competencies</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="card-icon">🖥️</div>
+          <h3>Computer Hardware</h3>
+          <p>Assembly, troubleshooting, component diagnosis, and hardware maintenance for desktop computers, laptops, and peripheral systems.</p>
+        </div>
+        <div class="skill-card">
+          <div class="card-icon">⚙️</div>
+          <h3>Configure Software</h3>
+          <p>Operating system installation, driver setups, network parameter tuning, and local application configuration.</p>
+        </div>
       </div>
     </section>
 
-    <section class="contact-section">
-      <h2>Contact Me</h2>
-      <p>Phone: <a href="tel:+254743470898">0743470898</a></p>
-      <p>Email: <a href="mailto:raymondokumu@gmail.com">raymondokumu@gmail.com</a></p>
+    <!-- Projects Section -->
+    <section id="projects" class="content-section">
+      <h2>Projects & Practical Work</h2>
+      <div class="card">
+        <h3>Hardware Setup & Maintenance Lab</h3>
+        <p>Executed comprehensive system diagnostics, rebuilt hardware components, and configured optimized software environments for stable machine performance.</p>
+      </div>
+      <div class="card">
+        <h3>System Configuration Portfolio</h3>
+        <p>A professional portfolio designed to showcase hands-on ICT skills, structured network setups, and technical documentation.</p>
+      </div>
     </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="content-section">
+      <h2>Hobbies & Interests</h2>
+      <ul class="hobbies-list">
+        <li><span>🎵</span> Listening to and writing drill music lyrics</li>
+        <li><span>💡</span> Researching emerging technology hardware systems</li>
+        <li><span>🎧</span> Exploring local sound engineering and street culture</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section contact-box">
+      <h2>Get In Touch</h2>
+      <p class="contact-text">Reach out for technical collaborations, hardware inquiries, or professional networking.</p>
+      <div class="contact-links">
+        <p>Phone: <a href="tel:+254743470898">0743470898</a></p>
+        <p>Email: <a href="mailto:raymondokumu@gmail.com">raymondokumu@gmail.com</a></p>
+      </div>
+    </section>
+
   </main>
 
 </body>
